@@ -63,7 +63,7 @@ nav .menu a{
 .hero{
     /* border: 1px solid red; */
     /* setting background image (Credit to Gemini)  */
-    background:url('../assets/hero-bg.png');
+    background:url('/assets/hero-bg.png');
     background-size: cover;
     background-position: center;
     width: 100vw;
