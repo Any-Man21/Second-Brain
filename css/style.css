@@ -1,0 +1,298 @@
+/* nav  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: inter;
+}
+body, html{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.font-open{
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    padding-top: 100px;
+}
+
+nav{
+    width: 96%;
+    /* border: 1px solid red; */
+    max-width: 1600px;
+    margin: 16px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed; 
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);  
+    z-index: 1000;
+}
+
+nav img{
+    margin-left: 120px;
+    cursor: pointer;
+}
+
+nav .btn{
+    margin-right: 120px;
+}
+
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    align-items: center;
+}
+
+nav .menu a{
+    color: rgb(20, 15, 15);
+    font-size:16px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+/* hero/banner  */
+
+.hero{
+    /* border: 1px solid red; */
+    /* setting background image (Credit to Gemini)  */
+    background:url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content{
+    background: transparent;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.hero-content h1{
+    margin-top: 20px;
+    font-size:60px;
+    font-style: Bold;
+    margin-bottom: 20px;
+}
+
+.green-text{
+    color:rgba(48, 184, 104, 1);
+}
+
+.hero-content p{
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.9;
+    margin-bottom: 32px;
+}
+
+/* buttons  */
+
+.buttons{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.buttons .btn1{
+    background-color: #30B868;
+    color: white;
+    padding: 16.5px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons .btn2{
+    border:1px solid #627382;
+    color: white;
+    padding: 16.5px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .btn{
+    background-color: #30B868;
+    color: white;
+    padding: 16.5px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+nav .btn:hover{
+    background-color: #0056D2;
+}
+
+.buttons a:hover{
+    background-color: #0056D2;
+}
+
+nav a:hover{
+    color: #0056D2;
+}
+
+.hero .badge{
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 1);
+    color: #30B868;
+    padding: 8px 12px;
+    border-radius: 1000px;
+    cursor: pointer;
+}
+
+.hero .badge:hover{
+    color: goldenrod;
+    background-color: #0056D2;
+}
+
+/* apps  */
+
+
+#apps img{
+    border: 15px solid tomato;
+    width: 60px;
+    height: 60px;
+    background: rgba(249, 85, 85, 1);
+    border-radius: 50%;
+    padding: 14.04 px 13.91px;
+    margin-bottom: 16px;
+}
+
+#apps h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+#apps .first{
+    font-size: 16px;
+    font-weight:400px;
+    line-height: 20px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.apps-container .apps-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.apps-container .apps-card p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.apps-container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    margin: auto 120px;
+}
+
+.apps-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px 8px rgba(0, 0, 0, 0.06);
+}
+
+
+
+/* second-brain  */
+
+#second-brain{
+    margin: 120px;
+    /* border: 1px solid red; */
+}
+
+#second-brain .brain-img{
+    border-radius: 12px;
+}
+
+.brain-texts{
+    padding-top: 102px;
+    padding-bottom: 102px;
+    padding-left: 60px;
+}
+
+.brain-texts .p1{
+    
+    color: green;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+.brain-texts h1{
+    color: var(--#001931, var(--Color, rgba(0, 25, 49, 1)));
+    font-style: bold;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.brain-texts .p2{
+    color: var(--#627382, rgba(98, 115, 130, 1));
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    line-height: px;
+}
+
+.brain-container li{
+    color:  var(--Style, rgba(0, 25, 49, 1));
+    font-size: 16px;
+    font-weight: 500;
+   
+}
+
+.brain-container li{
+    margin-bottom: 16px;
+    list-style-type: none;
+}
+
+.brain-container{
+    display: flex;
+}
+
